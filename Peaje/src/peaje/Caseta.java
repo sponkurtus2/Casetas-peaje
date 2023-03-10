@@ -1,5 +1,5 @@
 package peaje;
 
-public interface Caseta {
-    
+public class Caseta {
+    private String nombre;
 }
