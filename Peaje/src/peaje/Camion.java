@@ -6,16 +6,16 @@ public class Camion extends Vehiculos{
     public int getNum_ejes() {
         return num_ejes;
     }
-
-    public void setNum_ejes(int num_ejes) {
-        this.num_ejes = num_ejes;
-    }
-
-    
+ 
 
     public Camion(String placa) {
         super(placa);
         this.num_ejes = 2;
+    }
+
+    public Camion(String placa, int num_ejes) {
+        super(placa);
+        this.num_ejes = num_ejes;
     }
 
     public double getPeaje() {
